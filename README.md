@@ -1,10 +1,16 @@
-<p align="center">
-  <img src="avatar.png" width="200" style="border-radius:50%" alt="Avatar de Dayane kelly"/>
-</p>
+<table>
+  <tr>
+    <td width="160">
+      <img src="Eu.png" width="150" style="border-radius:50%" alt="Avatar de Andressa Galdino"/>
+    </td>
+    <td>
+      <h1> Olá, eu sou a Dayane kelly</h1>
+    </td>
+  </tr>
+</table>
 
 
-# Olá, eu sou a Dayane Kelly
----
+
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -18,6 +24,9 @@
 ---
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/www.linkedin.com/in/daykell1)
 [![Gmail](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dayanekelly994@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/daykell1/)
+
+
 
 
 
