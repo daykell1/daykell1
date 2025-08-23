@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td width="160">
-      <img src="Eu.png" width="150" style="border-radius:50%" alt="Avatar de Andressa Galdino"/>
+      <img src="Eu1.png" width="150" style="border-radius:50%" alt="Avatar de Andressa Galdino"/>
     </td>
     <td>
       <h1> Olá, eu sou a Dayane kelly</h1>
