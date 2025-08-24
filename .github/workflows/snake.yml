@@ -20,7 +20,7 @@ jobs:
       - name: Generate snake
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: daykell1 # <-- SUBSTITUA daykell1 PELO SEU NOME DE USUÁRIO
+          github_user_name: daykell1
           outputs: dist/github-contribution-grid-snake.svg
 
       # Publica no branch "output"
