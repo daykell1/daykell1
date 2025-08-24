@@ -22,11 +22,11 @@ jobs:
           outputs: dist/github-contribution-grid-snake.svg
 
       # Salva como artefato (pra poder baixar pelo Actions)
-      - name: Upload artifact
-        uses: actions/upload-artifact@v3
+     - name: Upload artifact
+        uses: actions/upload-artifact@v3.1.2
         with:
-          name: snake
-          path: dist/github-contribution-grid-snake.svg
+          name: snake-animation
+          path: dist/github
 
       # Publica no branch "output"
       - name: Push to output branch
