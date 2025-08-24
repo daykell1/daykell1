@@ -1,36 +1,36 @@
 name: Generate snake animation
 
 on:
-  schedule:
-    - cron: "0 */12 * * *"   # roda a cada 12 horas
-  workflow_dispatch:          # permite rodar manualmente
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-    steps:
-      # Faz o checkout do repositório (ESSENCIAL)
-      - name: Checkout repository
-        uses: actions/checkout@v4
+    steps:
+      # Faz o checkout do repositório (ESSENCIAL)
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      # Gera a cobrinha em SVG
-      - name: Generate snake
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: daykell1
-          outputs: dist/github-contribution-grid-snake.svg
+      # Gera a cobrinha em SVG
+      - name: Generate snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: daykell1
+          outputs: dist/github-contribution-grid-snake.svg
 
-      # Salva como artefato (pra poder baixar pelo Actions)
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: snake-animation
-          path: dist/github
+      # Salva como artefato (pra poder baixar pelo Actions)
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: snake-animation
+          path: dist/github
 
-      # Publica no branch "output"
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
+      # Publica no branch "output"
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
