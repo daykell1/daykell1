@@ -2,12 +2,14 @@ name: Generate snake animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */12 * * *"  # runs every 12 hours
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Adicione esta linha
 
     steps:
       # Faz o checkout do repositório (ESSENCIAL)
